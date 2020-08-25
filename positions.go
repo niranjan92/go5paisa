@@ -9,22 +9,22 @@ import (
 
 // Position represents a position object returned in the JSON response
 type Position struct {
-	BodQty        float32 `json:"BodQty"`
+	BodQty        int32   `json:"BodQty"`
 	BookedPL      float32 `json:"BookedPL"`
 	BuyAvgRate    float32 `json:"BuyAvgRate"`
 	BuyValue      float32 `json:"BuyValue"`
 	Exch          string  `json:"Exch"`
-	ExchType      float32 `json:"ExchType"`
+	ExchType      string  `json:"ExchType"`
 	LTP           float32 `json:"LTP"`
 	MTOM          float32 `json:"MTOM"`
 	Multiplier    float32 `json:"Multiplier"`
-	NetQty        float32 `json:"NetQty"`
-	OrderFor      float32 `json:"OrderFor"`
+	NetQty        int32   `json:"NetQty"`
+	OrderFor      string  `json:"OrderFor"`
 	PreviousClose float32 `json:"PreviousClose"`
-	ScripCode     float32 `json:"ScripCode"`
-	ScripName     float32 `json:"ScripName"`
+	ScripCode     int32   `json:"ScripCode"`
+	ScripName     string  `json:"ScripName"`
 	SellAvgRate   float32 `json:"SellAvgRate"`
-	SellQty       float32 `json:"SellQty"`
+	SellQty       int32   `json:"SellQty"`
 	SellValue     float32 `json:"SellValue"`
 }
 

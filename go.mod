@@ -1,4 +1,4 @@
-module github.com/5paisa/go5paisa
+module github.com/niranjan92/go5paisa
 
 go 1.14
 

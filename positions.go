@@ -13,7 +13,7 @@ type Position struct {
 	BookedPL      float32 `json:"BookedPL"`
 	BuyAvgRate    float32 `json:"BuyAvgRate"`
 	BuyValue      float32 `json:"BuyValue"`
-	Exch          float32 `json:"Exch"`
+	Exch          string  `json:"Exch"`
 	ExchType      float32 `json:"ExchType"`
 	LTP           float32 `json:"LTP"`
 	MTOM          float32 `json:"MTOM"`
